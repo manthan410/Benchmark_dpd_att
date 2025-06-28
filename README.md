@@ -71,10 +71,3 @@ Accepted at **AISA 2025**, co-located with **ECSA 2025**.
 - `confusion_matrix_inf.png` — visualization of confusion matrix at inference for obfuscated vs ground truth
 
 ---
-
-**Note:**  
-The full DPD_Att corpus is not redistributed here due to licensing. Please contact the original authors for access to the complete dataset. Only the curated subsets and benchmarks prepared for this study are included.  
-
----
-
-If you’d like, I can help you adapt this even further for Zenodo or Figshare if you plan to archive it!

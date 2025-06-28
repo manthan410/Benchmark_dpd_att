@@ -1,0 +1,15 @@
+module-info -> a:
+org.fuzzydb.attrs.AgeDecorator -> a.a.a.a:
+    long serialVersionUID -> a
+    void <init>(java.lang.String) -> <init>
+    java.lang.String getValueString(org.fuzzydb.attrs.internal.BaseAttribute) -> a
+org.fuzzydb.attrs.Decorator -> a.a.a.b:
+    void <init>(java.lang.String) -> <init>
+    java.lang.String getValueString(org.fuzzydb.attrs.internal.BaseAttribute) -> a
+org.fuzzydb.attrs.internal.BaseAttribute -> a.a.a.a.a:
+    void <init>() -> <init>
+org.fuzzydb.attrs.main -> a.a.a.c:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> a
+org.fuzzydb.attrs.simple.FloatValue -> a.a.a.b.a:
+    long getValue() -> a

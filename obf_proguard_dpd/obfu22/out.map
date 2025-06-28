@@ -1,0 +1,36 @@
+com.limegroup.gnutella.MagnetDownloadMemento -> a.a.a.a:
+com.limegroup.gnutella.MagnetDownloadMementoImpl -> a.a.a.b:
+    long serialVersionUID -> a
+    java.util.Map serialObjects -> a
+    void <init>() -> <init>
+    java.util.Map getAttributes() -> a
+    long getContentLength() -> a
+    java.lang.String getDefaultFileName() -> a
+    com.limegroup.gnutella.downloader.DownloaderType getDownloadType() -> a
+    java.io.File getIncompleteFile() -> a
+    java.util.Set getRemoteHosts() -> a
+    java.io.File getSaveFile() -> b
+    com.limegroup.gnutella.URN getSha1Urn() -> a
+    void setAttributes(java.util.Map) -> a
+    void setContentLength(long) -> a
+    void setDefaultFileName(java.lang.String) -> a
+    void setDownloadType(com.limegroup.gnutella.downloader.DownloaderType) -> a
+    void setIncompleteFile(java.io.File) -> a
+    void setRemoteHosts(java.util.Set) -> a
+    java.util.List getSavedBlocks() -> a
+    void setSavedBlocks(java.util.List) -> a
+    void setSaveFile(java.io.File) -> b
+    void setSha1Urn(com.limegroup.gnutella.URN) -> a
+    com.limegroup.gnutella.browser.MagnetOptions getMagnet() -> a
+    void setMagnet(com.limegroup.gnutella.browser.MagnetOptions) -> a
+com.limegroup.gnutella.RemoteHostMemento -> a.a.a.c:
+    void <init>() -> <init>
+com.limegroup.gnutella.URN -> a.a.a.d:
+    void <init>() -> <init>
+com.limegroup.gnutella.browser.MagnetOptions -> a.a.a.a.a:
+    void <init>() -> <init>
+com.limegroup.gnutella.downloader.DownloaderType -> a.a.a.b.a:
+    void <init>() -> <init>
+module-info -> a:
+org.limewire.collection.Range -> b.a.a.a:
+    void <init>() -> <init>

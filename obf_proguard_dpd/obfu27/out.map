@@ -1,0 +1,16 @@
+module-info -> a:
+org.xyz.Action -> a.a.a:
+    java.lang.String NAME -> a
+    java.lang.String ACTION_COMMAND_KEY -> b
+    void <clinit>() -> <clinit>
+org.xyz.ActionProxy -> a.a.b:
+    java.lang.String command -> c
+    java.awt.event.ActionListener listener -> a
+    void <init>(java.lang.String,java.awt.event.ActionListener) -> <init>
+    boolean isEnabled() -> a
+    void setEnabled(boolean) -> a
+    void addPropertyChangeListener(java.beans.PropertyChangeListener) -> a
+    void removePropertyChangeListener(java.beans.PropertyChangeListener) -> b
+    java.lang.Object getValue(java.lang.String) -> a
+    void putValue(java.lang.String,java.lang.Object) -> a
+    void actionPerformed(java.awt.event.ActionEvent) -> a

@@ -1,0 +1,7 @@
+abc.ListDataAdapter -> a.a:
+    void <init>() -> <init>
+    void listDataChanged(javax.swing.event.ListDataEvent) -> a
+    void intervalAdded(javax.swing.event.ListDataEvent) -> b
+    void intervalRemoved(javax.swing.event.ListDataEvent) -> c
+    void contentsChanged(javax.swing.event.ListDataEvent) -> d
+module-info -> a:

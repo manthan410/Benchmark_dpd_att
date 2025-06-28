@@ -1,0 +1,19 @@
+module-info -> a:
+org.abc.AbstractItemVisitor -> a.a.a:
+    void <init>() -> <init>
+    java.lang.Object visit(org.abc.AllItem,java.lang.Object) -> a
+    java.lang.Object visit(org.abc.PackageItem,java.lang.Object) -> a
+    java.lang.Object visit(org.abc.SrcFileItem,java.lang.Object) -> a
+    java.lang.Object visit(org.abc.ClassItem,java.lang.Object) -> a
+    java.lang.Object visit(org.abc.MethodItem,java.lang.Object) -> a
+org.abc.AllItem -> a.a.b:
+    void <init>() -> <init>
+org.abc.ClassItem -> a.a.c:
+    void <init>() -> <init>
+org.abc.IItemVisitor -> a.a.d:
+org.abc.MethodItem -> a.a.e:
+    void <init>() -> <init>
+org.abc.PackageItem -> a.a.f:
+    void <init>() -> <init>
+org.abc.SrcFileItem -> a.a.g:
+    void <init>() -> <init>

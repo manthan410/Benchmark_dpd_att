@@ -1,0 +1,37 @@
+android.app.Activity -> a.a.a:
+android.widget.Toast -> a.b.a:
+    java.lang.String LENGTH_LONG -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    android.widget.Toast makeText(java.lang.Object,java.lang.String,java.lang.String) -> a
+    void show() -> a
+module-info -> a:
+net.robotmedia.billing.BillingRequest -> b.a.a.a:
+    void <init>() -> <init>
+net.robotmedia.billing.BillingRequest$ResponseCode -> b.a.a.b:
+    net.robotmedia.billing.BillingRequest this$0 -> a
+    void <init>(net.robotmedia.billing.BillingRequest) -> <init>
+net.robotmedia.billing.helper.AbstractBillingObserver -> b.a.a.a.a:
+    android.app.Activity activity -> a
+    void <init>(android.app.Activity) -> <init>
+    void onBillingChecked(boolean) -> a
+    void onRequestPurchaseResponse(java.lang.String,net.robotmedia.billing.BillingRequest$ResponseCode) -> a
+    void onPurchaseStateChanged(java.lang.String,net.robotmedia.billing.model.Transaction$PurchaseState) -> a
+net.robotmedia.billing.helper.BillingObserver -> b.a.a.a.b:
+    void <init>(android.app.Activity) -> <init>
+    void onBillingChecked(boolean) -> a
+    void onRequestPurchaseResponse(java.lang.String,net.robotmedia.billing.BillingRequest$ResponseCode) -> a
+    void onPurchaseStateChanged(java.lang.String,net.robotmedia.billing.model.Transaction$PurchaseState) -> a
+net.robotmedia.billing.model.Transaction -> b.a.a.b.a:
+    void <init>() -> <init>
+net.robotmedia.billing.model.Transaction$PurchaseState -> b.a.a.b.b:
+    net.robotmedia.billing.model.Transaction$PurchaseState PURCHASED -> a
+    net.robotmedia.billing.model.Transaction this$0 -> a
+    void <clinit>() -> <clinit>
+    void <init>(net.robotmedia.billing.model.Transaction) -> <init>
+org.json.JSONException -> c.a.a:
+    void <init>() -> <init>
+    void printStackTrace() -> printStackTrace
+org.json.JSONObject -> c.a.b:
+    void <init>() -> <init>
+    void put(java.lang.String,java.lang.String) -> a

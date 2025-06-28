@@ -1,0 +1,13 @@
+module-info -> a:
+org.mindswap.pellet.NumericComparisonVisitor -> a.a.a.a:
+    int result -> a
+    void <init>() -> <init>
+    void argCheck(java.lang.Number[]) -> a
+    int getComparison() -> a
+    void visit(java.math.BigDecimal[]) -> a
+    void visit(java.math.BigInteger[]) -> a
+    void visit(java.lang.Double[]) -> a
+    void visit(java.lang.Float[]) -> a
+org.mindswap.pellet.NumericVisitor -> a.a.a.b:
+org.mindswap.pellet.exceptions.InternalReasonerException -> a.a.a.a.a:
+    void <init>(java.lang.String) -> <init>

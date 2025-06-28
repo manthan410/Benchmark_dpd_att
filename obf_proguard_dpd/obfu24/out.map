@@ -1,0 +1,35 @@
+module-info -> a:
+org.apache.axis2.context.ConfigurationContext -> a.a.a.a.a:
+    void <init>() -> <init>
+    org.apache.axis2.engine.AxisConfiguration getAxisConfiguration() -> a
+org.apache.axis2.engine.AxisConfiguration -> a.a.a.b.a:
+    void <init>() -> <init>
+org.apache.commons.logging.DiscoveryAxis2ConfigurationContextObserver -> a.a.b.a.a:
+    org.apache.commons.logging.Log log -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void createdConfigurationContext(org.apache.axis2.context.ConfigurationContext) -> a
+    void terminatingConfigurationContext(org.apache.axis2.context.ConfigurationContext) -> b
+org.apache.commons.logging.Log -> a.a.b.a.b:
+    void <init>() -> <init>
+    boolean isDebugEnabled() -> a
+    void debug(java.lang.String) -> a
+    void error(java.lang.String,org.wso2.carbon.registry.api.RegistryException) -> a
+org.apache.commons.logging.LogFactory -> a.a.b.a.c:
+    void <init>() -> <init>
+    org.apache.commons.logging.Log getLog(java.lang.Class) -> a
+org.wso2.carbon.core.multitenancy.SuperTenantCarbonContext -> a.b.a.a.a.a:
+    void <init>() -> <init>
+    org.wso2.carbon.core.multitenancy.SuperTenantCarbonContext getCurrentContext(org.apache.axis2.context.ConfigurationContext) -> a
+    java.lang.String getTenantDomain(boolean) -> a
+org.wso2.carbon.discovery.util.DiscoveryMgtUtils -> a.b.a.b.a.a:
+    void <init>() -> <init>
+    boolean isServiceDiscoveryEnabled(org.apache.axis2.engine.AxisConfiguration) -> a
+org.wso2.carbon.discovery.util.Util -> a.b.a.b.a.b:
+    void <init>() -> <init>
+    void registerServiceObserver(org.apache.axis2.engine.AxisConfiguration) -> a
+    void unregisterServiceObserver(org.apache.axis2.engine.AxisConfiguration,boolean) -> a
+org.wso2.carbon.registry.api.RegistryException -> a.b.a.c.a.a:
+    void <init>() -> <init>
+org.wso2.carbon.utils.AbstractAxis2ConfigurationContextObserver -> a.b.a.d.a:
+    void <init>() -> <init>

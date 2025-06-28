@@ -1,0 +1,54 @@
+com.ipeirotis.Decorator -> a.a.a:
+    void <init>(com.ipeirotis.gal.core.Worker) -> <init>
+com.ipeirotis.WorkerDecorator -> a.a.b:
+    com.ipeirotis.gal.core.Worker worker -> a
+    void <init>(com.ipeirotis.gal.core.Worker) -> <init>
+    java.lang.Double getExpectedCost() -> a
+    java.lang.Double getMinCost() -> b
+    java.lang.Double getMaxLikelihoodCost() -> c
+    java.lang.Double getExpCostEval() -> d
+    java.lang.Double getMinCostEval() -> e
+    java.lang.Double getMaxLikelihoodCostEval() -> f
+    java.lang.Double getWeightedMaxLikelihoodCost() -> g
+    java.lang.Double getWeightedMaxLikelihoodCostEval() -> h
+    java.lang.Double getWeightedQualityForEstQualityExp() -> i
+    java.lang.Double getWeightedQualityForEstQualityOpt() -> j
+    java.lang.Double getWeightedQualityForEvalQualityExp() -> k
+    java.lang.Double getWeightedQualityForEvalQualityOpt() -> l
+    java.lang.Double getWeightedQualityFor(com.ipeirotis.gal.decorator.FieldAccessors$EntityFieldAccessor) -> a
+    java.lang.Double getMetric(com.ipeirotis.gal.core.Worker,com.ipeirotis.gal.decorator.FieldAccessors$EntityFieldAccessor) -> a
+    java.lang.Double getNumContributions() -> m
+    java.lang.Double getNumGoldTests() -> n
+com.ipeirotis.gal.core.DummyReturn -> a.a.a.a.a:
+    void <init>() -> <init>
+com.ipeirotis.gal.core.Worker -> a.a.a.a.b:
+    void <init>() -> <init>
+    com.ipeirotis.gal.core.Worker getDs() -> a
+    com.ipeirotis.gal.core.Worker getAssignedLabels() -> b
+    java.lang.Object getCategories() -> a
+    java.lang.Double getWorkerQuality(java.lang.Object,java.lang.String) -> a
+    double size() -> a
+    double countGoldTests(com.ipeirotis.gal.core.Worker) -> a
+com.ipeirotis.gal.core.Worker$ClassificationMethod -> a.a.a.a.c:
+    java.lang.String DS_Soft_Estm -> a
+    java.lang.String DS_MinCost_Estm -> b
+    java.lang.String DS_MaxLikelihood_Estm -> c
+    java.lang.String DS_Soft_Eval -> d
+    java.lang.String DS_MinCost_Eval -> e
+    java.lang.String DS_MaxLikelihood_Eval -> f
+    com.ipeirotis.gal.core.Worker this$0 -> a
+    void <clinit>() -> <clinit>
+    void <init>(com.ipeirotis.gal.core.Worker) -> <init>
+com.ipeirotis.gal.decorator.FieldAccessors -> a.a.a.b.a:
+    void <init>() -> <init>
+com.ipeirotis.gal.decorator.FieldAccessors$EntityFieldAccessor -> a.a.a.b.b:
+    void <init>() -> <init>
+    java.lang.Object getValue(com.ipeirotis.gal.core.Worker) -> a
+com.ipeirotis.gal.decorator.FieldAccessors$WORKER_ACCESSORS -> a.a.a.b.c:
+    com.ipeirotis.gal.decorator.FieldAccessors$EntityFieldAccessor EST_QUALITY_EXP -> a
+    com.ipeirotis.gal.decorator.FieldAccessors$EntityFieldAccessor EST_QUALITY_OPT -> b
+    com.ipeirotis.gal.decorator.FieldAccessors$EntityFieldAccessor EVAL_QUALITY_EXP -> c
+    com.ipeirotis.gal.decorator.FieldAccessors$EntityFieldAccessor EVAL_QUALITY_OPT -> d
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+module-info -> a:

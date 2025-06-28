@@ -1,0 +1,18 @@
+module-info -> a:
+org.slf4j.Logger -> a.a.a:
+    void <init>() -> <init>
+org.slf4j.LoggerFactory -> a.a.b:
+    void <init>() -> <init>
+    org.slf4j.Logger getLogger(java.lang.Class) -> a
+org.xyz.EmSingleton -> a.b.a:
+    org.slf4j.Logger logger -> a
+    org.xyz.EventManager instance_ -> a
+    java.lang.Object syncObject_ -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void intialize() -> b
+    org.xyz.EventManager get() -> a
+    void release() -> a
+org.xyz.EventManager -> a.b.b:
+    void <init>() -> <init>
+    void stopLogListener() -> a

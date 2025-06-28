@@ -1,0 +1,28 @@
+io.s4.dispatcher.PrototypeRequest -> a.a.a.a:
+    java.util.List query -> a
+    void <init>(java.util.List,io.s4.processor.RInfo) -> <init>
+    void <init>(java.util.List) -> <init>
+    void <init>() -> <init>
+    java.lang.String toString() -> toString
+    java.util.List getQuery() -> a
+    io.s4.dispatcher.Response evaluate(io.s4.processor.PrototypeWrapper) -> a
+    java.util.List partition(io.s4.dispatcher.partitioner.Hasher,java.lang.String,int) -> a
+io.s4.dispatcher.Request -> a.a.a.b:
+    io.s4.processor.RInfo rinfo -> a
+    void <init>() -> <init>
+io.s4.dispatcher.Response -> a.a.a.c:
+    void <init>(java.util.HashMap,java.util.HashMap,io.s4.dispatcher.PrototypeRequest) -> <init>
+io.s4.dispatcher.partitioner.CompoundKeyInfo -> a.a.a.a.a:
+    void <init>() -> <init>
+    void setPartitionId(int) -> a
+io.s4.dispatcher.partitioner.Hasher -> a.a.a.a.b:
+    void <init>() -> <init>
+io.s4.processor.PrototypeWrapper -> a.a.b.a:
+    void <init>() -> <init>
+    java.lang.Object getPECount() -> a
+io.s4.processor.RInfo -> a.a.b.b:
+    void <init>() -> <init>
+io.s4.util.MethodInvoker -> a.a.c.a:
+    void <init>() -> <init>
+    java.lang.Object invokeGetter(io.s4.processor.PrototypeWrapper,java.lang.String) -> a
+module-info -> a:

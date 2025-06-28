@@ -1,0 +1,13 @@
+module-info -> a:
+org.AreaCalculator -> a.a:
+    void <init>() -> <init>
+    float getArea(java.util.ArrayList) -> a
+org.Polygon -> a.b:
+    java.util.ArrayList localPoints -> a
+    org.AreaCalculator calc -> a
+    org.AreaCalculator getCalc() -> a
+    void setCalc(org.AreaCalculator) -> a
+    java.util.ArrayList getLocalPoints() -> a
+    void <init>(java.util.ArrayList,org.AreaCalculator) -> <init>
+    void addPoint(java.awt.Point) -> a
+    float getArea() -> a

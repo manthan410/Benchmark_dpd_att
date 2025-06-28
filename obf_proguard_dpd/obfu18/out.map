@@ -1,0 +1,80 @@
+module-info -> a:
+org.eclipse.core.resources.IMarker -> a.a.a.a.a:
+    int SEVERITY_ERROR -> a
+    void <init>() -> <init>
+org.eclipse.core.resources.IResource -> a.a.a.a.b:
+    java.lang.String DEPTH_INFINITE -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    java.lang.Object getProject() -> a
+org.eclipse.core.runtime.CoreException -> a.a.a.b.a:
+    void <init>() -> <init>
+org.eclipse.core.runtime.IPath -> a.a.a.b.b:
+    void <init>() -> <init>
+org.eclipse.jdt.core.ClassPathResolver -> a.a.b.a.a:
+    void <init>(org.eclipse.jdt.core.EclipseFacade) -> <init>
+    java.lang.String rawClasspath(org.eclipse.jdt.core.IJavaProject) -> a
+org.eclipse.jdt.core.EclipseFacade -> a.a.b.a.b:
+    void <init>() -> <init>
+org.eclipse.jdt.core.EclipseProject -> a.a.b.a.c:
+    java.net.URI getLocationURI() -> a
+    org.eclipse.jdt.core.IClasspathEntry[] getClasspathEntries() -> a
+    org.eclipse.core.runtime.IPath getDefaultOutputLocation() -> a
+org.eclipse.jdt.core.IClasspathEntry -> a.a.b.a.d:
+    void <init>() -> <init>
+org.eclipse.jdt.core.IJavaModelMarker -> a.a.b.a.e:
+    java.lang.String JAVA_MODEL_PROBLEM_MARKER -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+org.eclipse.jdt.core.IJavaProject -> a.a.b.a.f:
+    void <init>() -> <init>
+    org.eclipse.jdt.core.IJavaProject getProject() -> a
+    org.eclipse.jdt.core.IJavaProject getLocation() -> b
+    java.io.File toFile() -> a
+    boolean isOpen() -> a
+    java.net.URI getLocationURI() -> a
+    org.eclipse.jdt.core.IClasspathEntry[] getResolvedClasspath(boolean) -> a
+    java.lang.String getElementName() -> a
+    org.eclipse.core.runtime.IPath getOutputLocation() -> a
+    boolean isOnClasspath(org.eclipse.core.resources.IResource) -> a
+    int findMaxProblemSeverity(java.lang.String,boolean,java.lang.String) -> a
+org.eclipse.jdt.core.JavaModelException -> a.a.b.a.g:
+    void <init>() -> <init>
+org.eclipse.jdt.launching.IVMInstall -> a.a.b.b.a:
+    void <init>() -> <init>
+    org.eclipse.jdt.launching.IVMInstall getVMInstallType() -> a
+    java.io.File getInstallLocation() -> a
+    org.eclipse.jdt.launching.IVMInstall[] getVMInstalls() -> a
+org.eclipse.jdt.launching.IVMInstall2 -> a.a.b.b.b:
+    java.lang.String getJavaVersion() -> a
+org.eclipse.jdt.launching.JavaRuntime -> a.a.b.b.c:
+    void <init>() -> <init>
+    org.eclipse.jdt.launching.IVMInstall getVMInstall(org.eclipse.jdt.core.IJavaProject) -> a
+org.eclipse.jdt.launching.JavaRuntime$1 -> a.a.b.b.d:
+    void <init>() -> <init>
+    java.io.File getInstallLocation() -> a
+org.eclipse.jdt.launching.ProjectFacade -> a.a.b.b.e:
+    org.eclipse.jdt.core.IJavaProject project -> a
+    void <init>(org.eclipse.jdt.core.IJavaProject) -> <init>
+    java.io.File workingDirectory() -> a
+    java.io.File getJvmHome() -> b
+    org.eclipse.jdt.launching.IVMInstall findFirstJava5OrGreaterJvm(org.eclipse.jdt.launching.IVMInstall) -> a
+    int parseMajorVersion(org.eclipse.jdt.launching.IVMInstall) -> a
+    boolean isOpen() -> a
+    java.net.URI getLocationURI() -> a
+    org.eclipse.jdt.core.IClasspathEntry[] getClasspathEntries() -> a
+    java.lang.String getName() -> a
+    boolean hasErrors() -> b
+    java.lang.String rawClasspath() -> b
+    org.eclipse.core.runtime.IPath getDefaultOutputLocation() -> a
+    boolean isOnClasspath(org.eclipse.core.resources.IResource) -> a
+    boolean contains(org.eclipse.core.resources.IResource) -> b
+org.eclipse.jdt.launching.ProjectFacade$UnknownJvmVersionException -> a.a.b.b.f:
+    long serialVersionUID -> a
+    java.lang.String version -> a
+    void <init>() -> <init>
+    void <init>(java.lang.String) -> <init>
+    java.lang.String getVersion() -> a
+org.infinitest.util.InfinitestUtils -> a.b.a.a:
+    void <init>() -> <init>
+    void log(java.util.logging.Level,java.lang.String) -> a

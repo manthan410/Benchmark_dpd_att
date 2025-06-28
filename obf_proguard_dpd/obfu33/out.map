@@ -1,0 +1,5 @@
+module-info -> a:
+org.BMWSound -> a.a:
+    void <init>() -> <init>
+    void sound() -> a
+org.ISound -> a.b:

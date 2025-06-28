@@ -1,0 +1,33 @@
+module-info -> a:
+org.eclipse.cdt.core.dom.ast.ASTVisitor -> a.a.a.a.a.a.a:
+    boolean shouldVisitNames -> a
+    boolean shouldVisitDeclarations -> b
+    int PROCESS_SKIP -> a
+    int PROCESS_CONTINUE -> b
+    void <init>() -> <init>
+    int visit(org.eclipse.cdt.core.dom.ast.IASTName) -> a
+    int visit(org.eclipse.cdt.core.dom.ast.IASTDeclaration) -> a
+org.eclipse.cdt.core.dom.ast.IASTDeclaration -> a.a.a.a.a.a.b:
+    void <init>() -> <init>
+    org.eclipse.cdt.core.dom.ast.IASTFileLocation getFileLocation() -> a
+org.eclipse.cdt.core.dom.ast.IASTFileLocation -> a.a.a.a.a.a.c:
+    void <init>() -> <init>
+    java.lang.Object getFileName() -> a
+    int getNodeOffset() -> a
+    int getNodeLength() -> b
+org.eclipse.cdt.core.dom.ast.IASTName -> a.a.a.a.a.a.d:
+    void <init>() -> <init>
+    boolean isReference() -> a
+    org.eclipse.cdt.core.dom.ast.IASTFileLocation getFileLocation() -> a
+org.eclipse.cdt.core.dom.ast.ReferenceVisitor -> a.a.a.a.a.a.e:
+    java.util.ArrayList fReferences -> a
+    int fOffset -> c
+    int fEndOffset -> d
+    java.lang.String fFileName -> a
+    void <init>(java.lang.String,int,int) -> <init>
+    org.eclipse.cdt.core.dom.ast.IASTName[] getReferences() -> a
+    int visit(org.eclipse.cdt.core.dom.ast.IASTName) -> a
+    int visit(org.eclipse.cdt.core.dom.ast.IASTDeclaration) -> a
+org.eclipse.cdt.core.dom.ast.main -> a.a.a.a.a.a.f:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> a

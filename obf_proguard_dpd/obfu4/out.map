@@ -1,0 +1,26 @@
+SRM.Activity -> a.a:
+    void <init>() -> <init>
+SRM.Capability -> a.b:
+    void <init>() -> <init>
+SRM.Functionality -> a.c:
+    void <init>() -> <init>
+SRM.Role -> a.d:
+    void <init>() -> <init>
+SRM.SRMFactory -> a.e:
+    SRM.SRMFactory eINSTANCE -> a
+    void <clinit>() -> <clinit>
+    SRM.SRMmodel createSRMmodel() -> a
+    SRM.Role createRole() -> a
+    SRM.Activity createActivity() -> a
+    SRM.Capability createCapability() -> a
+    SRM.Functionality createFunctionality() -> a
+    SRM.SRMPackage getSRMPackage() -> a
+SRM.SRMPackage -> a.f:
+    void <init>() -> <init>
+SRM.SRMmodel -> a.g:
+    void <init>() -> <init>
+SRM.impl.SRMFactoryImpl -> a.a.a:
+    void <init>() -> <init>
+    SRM.SRMFactory init() -> a
+module-info -> a:
+org.eclipse.emf.ecore.EFactory -> b.a.a.a.a:

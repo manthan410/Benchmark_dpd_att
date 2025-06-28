@@ -1,0 +1,3 @@
+module-info -> a:
+org.abc.InspectorFactory -> a.a.a:
+    java.lang.String getInspectorId() -> a

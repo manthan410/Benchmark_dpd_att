@@ -1,0 +1,8 @@
+abc.WidgetFactory -> a.a:
+    javax.swing.JComboBox createComboBox(java.util.Collection,boolean) -> a
+    javax.swing.JComboBox createComboBox(java.lang.Object[],boolean) -> a
+    javax.swing.JComboBox createComboBox() -> a
+    javax.swing.JComboBox createUndoableComboBox() -> b
+    javax.swing.DefaultCellEditor createCellEditor(javax.swing.JTextField) -> a
+    javax.swing.table.TableCellEditor createCellEditor(javax.swing.JComboBox) -> a
+module-info -> a:

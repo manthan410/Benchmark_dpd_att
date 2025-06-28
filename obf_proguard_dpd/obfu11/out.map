@@ -1,0 +1,109 @@
+module-info -> a:
+org.apache.velocity.Template -> a.a.a.a:
+    void <init>() -> <init>
+    void merge(org.apache.velocity.VelocityContext,java.io.StringWriter) -> a
+org.apache.velocity.VelocityContext -> a.a.a.b:
+    void <init>() -> <init>
+    void put(java.lang.String,java.lang.Object) -> a
+org.apache.velocity.app.VelocityEngine -> a.a.a.a.a:
+    void <init>() -> <init>
+    void setProperty(java.lang.String,java.lang.String) -> a
+    void init() -> a
+    org.apache.velocity.Template getTemplate(java.lang.String) -> a
+org.apache.velocity.runtime.RuntimeConstants -> a.a.a.b.a:
+    java.lang.String RESOURCE_LOADER -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader -> a.a.a.b.a.a.a:
+    void <init>() -> <init>
+org.openehealth.coala.domain.Patient -> a.b.a.a.a:
+    void <init>() -> <init>
+    java.lang.Object getLastName() -> a
+    java.lang.Object getGivenName() -> b
+    java.lang.Object getBirthdate() -> c
+    org.openehealth.coala.domain.Patient getAddress() -> a
+    java.lang.Object getPatientID() -> d
+    java.lang.Object getPatientIDAssigningAuthorityUniversalId() -> e
+    java.lang.Object getSex() -> f
+    java.lang.Object getStreetAddress() -> g
+    java.lang.Object getStateOrProvince() -> h
+    java.lang.Object getZipOrPostalCode() -> i
+    java.lang.Object getCity() -> j
+    java.lang.Object getCountry() -> k
+org.openehealth.coala.domain.PatientConsentPolicy -> a.b.a.a.b:
+    void <init>() -> <init>
+    java.lang.Object name() -> a
+    java.lang.Object getShortName() -> b
+org.openehealth.coala.exception.CDACreationException -> a.b.a.b.a:
+    void <init>(java.lang.String,java.lang.Exception) -> <init>
+org.openehealth.coala.util.PXSDateConverter -> a.b.a.c.a:
+    void <init>() -> <init>
+    java.lang.Object DateToShortString(java.lang.Object) -> a
+org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry -> a.b.b.a.a.a.a.a.a:
+    void <init>() -> <init>
+    java.lang.Object getUniqueId() -> a
+    org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry getTypeCode() -> a
+    java.lang.Object getCreationTime() -> b
+    org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry getConfidentialityCodes() -> b
+    java.lang.Object getLanguageCode() -> c
+    org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry getAuthor() -> c
+    java.lang.Object getServiceStartTime() -> d
+    java.lang.Object getServiceStopTime() -> e
+    org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry getTitle() -> d
+    java.lang.Object getCode() -> f
+    org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry getDisplayName() -> e
+    java.lang.Object getSchemeName() -> g
+    java.lang.Object getValue() -> h
+    org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry get(int) -> a
+    org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry getAuthorPerson() -> f
+    org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry getName() -> g
+    java.lang.Object getPrefix() -> i
+    java.lang.Object getFamilyName() -> j
+    java.lang.Object getGivenName() -> k
+org.slf4j.CDABuilder -> a.c.a:
+    org.slf4j.Logger LOG -> a
+    java.lang.String TAG_CDA_FAMILY -> a
+    java.lang.String TAG_CDA_GIVEN -> b
+    java.lang.String TAG_CDA_BIRTHDATE -> c
+    java.lang.String TAG_CDA_VALIDFROM -> d
+    java.lang.String TAG_CDA_VALIDUNTIL -> e
+    java.lang.String TAG_CDA_ADDRESS_STREET -> f
+    java.lang.String TAG_CDA_ADDRESS_CITY -> g
+    java.lang.String TAG_CDA_ADDRESS_STATE -> h
+    java.lang.String TAG_CDA_ADDRESS_POSTALCODE -> i
+    java.lang.String TAG_CDA_ADDRESS_COUNTRY -> j
+    java.lang.String TAG_CDA_PATIENT_ID -> k
+    java.lang.String TAG_CDA_PATIENT_GENDER -> l
+    java.lang.String TAG_CDA_PATIENT_ID_ROOT -> m
+    java.lang.String TAG_CDA_ID_ROOT -> n
+    java.lang.String TAG_CDA_CODE_CODE -> o
+    java.lang.String TAG_CDA_CODE_DISPLAYNAME -> p
+    java.lang.String TAG_CDA_CODE_CODESYSTEM -> q
+    java.lang.String TAG_CDA_CODE_CODESYSTEMNAME -> r
+    java.lang.String TAG_CDA_TITlE -> s
+    java.lang.String TAG_CDA_EFFECTIVETIME -> t
+    java.lang.String TAG_CDA_CONFIDENTIALTY_CODE -> u
+    java.lang.String TAG_CDA_CONFIDENTIALTY_DISPLAYNAME -> v
+    java.lang.String TAG_CDA_CONFIDENTIALTY_CODESYSTEM -> w
+    java.lang.String TAG_CDA_CONFIDENTIALTY_CODESYSTEMNAME -> x
+    java.lang.String TAG_CDA_LANGUAGECODE -> y
+    java.lang.String TAG_CDA_COMPONENT_TITLE -> z
+    java.lang.String TAG_CDA_COMPONENT_TEXT -> A
+    java.lang.String TAG_CDA_Author_TITLE -> B
+    java.lang.String TAG_CDA_Author_FAMILY -> C
+    java.lang.String TAG_CDA_Author_GIVEN -> D
+    org.apache.velocity.Template t -> a
+    java.lang.String CDA_CODE_CODESYSTEM_OID -> E
+    java.lang.String CDA_CONFIDENTIALTY_CODESYSTEM_OID -> F
+    org.openehealth.coala.util.PXSDateConverter pxsDateConverter -> a
+    void <clinit>() -> <clinit>
+    void setPxsDateConverter(org.openehealth.coala.util.PXSDateConverter) -> a
+    void <init>(java.lang.String) -> <init>
+    java.lang.String createConsentCDA(org.openehealth.coala.domain.Patient,org.openehealth.coala.domain.PatientConsentPolicy,org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry) -> a
+    org.apache.velocity.VelocityContext createMetaContext(org.apache.velocity.VelocityContext,org.openehealth.coala.domain.Patient,org.openehealth.coala.domain.PatientConsentPolicy,org.openehealth.ipf.commons.ihe.xds.core.metadata.DocumentEntry) -> a
+org.slf4j.Logger -> a.c.b:
+    void <init>() -> <init>
+    void debug(java.lang.String) -> a
+org.slf4j.LoggerFactory -> a.c.c:
+    void <init>() -> <init>
+    org.slf4j.Logger getLogger(java.lang.Class) -> a

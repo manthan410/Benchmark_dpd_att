@@ -1,0 +1,18 @@
+abc.AbstractAdapter -> a.a:
+    void <init>() -> <init>
+    java.util.Map processLaunchData(java.util.Map) -> a
+    java.util.Map getDefaultParameters() -> a
+abc.SakaiAdapter -> a.b:
+    org.slf4j.Logger log -> a
+    java.lang.String EXT_SAKAI_PROVIDER_EID -> a
+    void <init>() -> <init>
+    java.util.Map processLaunchData(java.util.Map) -> a
+module-info -> a:
+org.apache.commons.lang.StringUtils -> b.a.a.a.a:
+    void <init>() -> <init>
+org.slf4j.Logger -> b.b.a:
+    void <init>() -> <init>
+    void debug(java.lang.String) -> a
+org.slf4j.LoggerFactory -> b.b.b:
+    void <init>() -> <init>
+    org.slf4j.Logger getLogger(java.lang.String) -> a

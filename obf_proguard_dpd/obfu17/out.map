@@ -1,0 +1,66 @@
+android.app.Constants -> a.a.a:
+    java.lang.String TAG -> a
+    boolean LOGVV -> a
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+android.app.Notification -> a.a.b:
+    void <init>() -> <init>
+android.app.NotificationManager -> a.a.c:
+    void <init>() -> <init>
+    void notify(int,android.app.Notification) -> a
+    void cancelAll() -> a
+    void cancel(int) -> a
+android.app.RealSystemFacade -> a.a.d:
+    android.content.Context mContext -> a
+    android.app.NotificationManager mNotificationManager -> a
+    long DOWNLOAD_MAX_BYTES_OVER_MOBILE -> a
+    long DOWNLOAD_RECOMMENDED_MAX_BYTES_OVER_MOBILE -> b
+    void <init>(android.content.Context) -> <init>
+    long currentTimeMillis() -> a
+    java.lang.Integer getActiveNetworkType() -> a
+    boolean isNetworkRoaming() -> a
+    java.lang.Long getMaxBytesOverMobile() -> a
+    java.lang.Long getRecommendedMaxBytesOverMobile() -> b
+    void sendBroadcast(android.content.Intent) -> a
+    boolean userOwnsPackage(int,java.lang.String) -> a
+    void postNotification(long,android.app.Notification) -> a
+    void cancelNotification(long) -> a
+    void cancelAllNotifications() -> a
+    void startThread(java.lang.Thread) -> a
+android.app.SystemFacade -> a.a.e:
+    boolean userOwnsPackage(int,java.lang.String) -> a
+    void postNotification(long,android.app.Notification) -> a
+    void cancelNotification(long) -> a
+    void cancelAllNotifications() -> a
+    void startThread(java.lang.Thread) -> a
+    java.lang.Long getRecommendedMaxBytesOverMobile() -> b
+    void sendBroadcast(android.content.Intent) -> a
+android.content.Context -> a.b.a:
+    java.lang.String NOTIFICATION_SERVICE -> a
+    java.lang.String CONNECTIVITY_SERVICE -> b
+    java.lang.String TELEPHONY_SERVICE -> c
+    int uid -> a
+    void <init>() -> <init>
+    java.lang.Object getSystemService(java.lang.String) -> a
+    android.content.Context getPackageManager() -> a
+    void sendBroadcast(android.content.Intent) -> a
+    android.content.Context getApplicationInfo(java.lang.String,int) -> a
+android.content.Intent -> a.b.b:
+    void <init>() -> <init>
+android.content.pm.PackageManager.NameNotFoundException -> a.b.a.a.a:
+    void <init>() -> <init>
+android.net.ConnectivityManager -> a.c.a:
+    int TYPE_MOBILE -> a
+    void <init>() -> <init>
+    android.net.NetworkInfo getActiveNetworkInfo() -> a
+android.net.NetworkInfo -> a.c.b:
+    void <init>() -> <init>
+    int getType() -> a
+android.telephony.TelephonyManager -> a.d.a:
+    void <init>() -> <init>
+    boolean isNetworkRoaming() -> a
+android.util.Log -> a.e.a:
+    void <init>() -> <init>
+    void v(java.lang.String,java.lang.String) -> a
+    void w(java.lang.String,java.lang.String) -> b
+module-info -> a:

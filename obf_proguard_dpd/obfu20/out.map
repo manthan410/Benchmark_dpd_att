@@ -1,0 +1,9 @@
+io.milton.http.exceptions.BadRequestException -> a.a.a.a.a:
+    void <init>() -> <init>
+io.milton.http.exceptions.NotAuthorizedException -> a.a.a.a.b:
+    void <init>() -> <init>
+io.milton.resource.Resource -> a.a.b.a:
+    void <init>() -> <init>
+module-info -> a:
+org.xyz.ResourceFactory -> b.a.a:
+    io.milton.resource.Resource getResource(java.lang.String,java.lang.String) -> a

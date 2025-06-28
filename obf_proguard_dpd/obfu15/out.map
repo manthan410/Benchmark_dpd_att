@@ -1,0 +1,10 @@
+abc.CarroPrototipo -> a.a:
+    void <init>() -> <init>
+    void setValorCompra(java.lang.Object) -> a
+    java.lang.Object getValorCompra() -> a
+abc.Porsche911 -> a.b:
+    void <init>(abc.Porsche911) -> <init>
+    void <init>() -> <init>
+    java.lang.String exibirInfo() -> a
+    abc.CarroPrototipo clonar() -> a
+module-info -> a:

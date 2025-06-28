@@ -1,0 +1,14 @@
+module-info -> a:
+org.abc.GridData -> a.a.a:
+org.abc.GridPrototype -> a.a.b:
+    org.abc.GridPrototype getParentProto() -> a
+    void setParentProto(org.abc.GridPrototype) -> a
+    boolean hasSlot(org.abc.GridToken) -> a
+    org.abc.GridPrototype getSlot(org.abc.GridToken) -> a
+    org.abc.GridPrototype defineSlot(org.abc.GridToken) -> b
+    org.abc.GridPrototype defineAndAssignSlot(org.abc.GridToken,org.abc.GridPrototype) -> a
+    org.abc.GridPrototype setSlot(org.abc.GridToken,org.abc.GridPrototype) -> b
+    java.util.Set getSlotNames() -> a
+    java.lang.String getTypeName() -> a
+org.abc.GridToken -> a.a.c:
+    void <init>() -> <init>

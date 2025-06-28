@@ -1,0 +1,104 @@
+module-info -> a:
+org.apache.commons.logging.HiveSessionFactory -> a.a.a.a.a:
+    void <init>() -> <init>
+org.apache.commons.logging.HiveSessionFactoryImpl -> a.a.a.a.b:
+    void <init>(org.hibernate.shards.session.ShardedSessionFactory,org.hivedb.Hive,org.hivedb.configuration.EntityHiveConfig) -> <init>
+org.apache.commons.logging.Log -> a.a.a.a.c:
+    void <init>() -> <init>
+    void info(java.lang.String) -> a
+org.apache.commons.logging.LogFactory -> a.a.a.a.d:
+    void <init>() -> <init>
+    org.apache.commons.logging.Log getLog(java.lang.Class) -> a
+org.apache.commons.logging.SingletonHiveSessionFactoryBuilder -> a.a.a.a.e:
+    org.apache.commons.logging.Log log -> a
+    org.apache.commons.logging.HiveSessionFactory factory -> a
+    org.hivedb.Hive hive -> a
+    java.util.List persistableClasses -> a
+    java.util.Properties overrides -> a
+    org.hibernate.shards.strategy.access.ShardAccessStrategy accessStrategy -> a
+    org.hivedb.configuration.EntityHiveConfig hiveConfig -> a
+    void <clinit>() -> <clinit>
+    void <init>(org.hivedb.Hive,java.util.List,org.hibernate.shards.strategy.access.ShardAccessStrategy) -> <init>
+    void <init>(org.hivedb.Hive,java.util.List,org.hibernate.shards.strategy.access.ShardAccessStrategy,java.util.Properties) -> <init>
+    org.apache.commons.logging.HiveSessionFactory getSessionFactory() -> a
+    org.apache.commons.logging.HiveSessionFactory buildSessionFactory() -> b
+    org.hibernate.shards.strategy.ShardStrategyFactory buildShardStrategyFactory() -> a
+    org.hibernate.cfg.Configuration buildPrototypeConfiguration(org.hibernate.cfg.Configuration) -> a
+    java.util.Collection getNodeConfigurations() -> a
+    void update(java.util.Observable,java.lang.Object) -> update
+    void logIterable(java.lang.String,java.lang.Iterable) -> a
+    void logMap(java.lang.String,java.util.Map) -> a
+    org.hivedb.Hive getHive() -> a
+    java.util.Properties getOverrides() -> a
+    java.util.List getPersistableClasses() -> a
+org.apache.commons.logging.SingletonHiveSessionFactoryBuilder$1 -> a.a.a.a.f:
+    org.apache.commons.logging.SingletonHiveSessionFactoryBuilder this$0 -> a
+    void <init>(org.apache.commons.logging.SingletonHiveSessionFactoryBuilder) -> <init>
+    org.hibernate.shards.cfg.ShardConfiguration f(org.hivedb.hibernate.simplified.session.configuration.NodeConfiguration) -> a
+    java.lang.Object f(java.lang.Object) -> a
+org.apache.commons.logging.SingletonHiveSessionFactoryBuilder$2 -> a.a.a.a.g:
+    org.apache.commons.logging.SingletonHiveSessionFactoryBuilder this$0 -> a
+    void <init>(org.apache.commons.logging.SingletonHiveSessionFactoryBuilder) -> <init>
+    org.hibernate.shards.strategy.ShardStrategy newShardStrategy(java.util.List) -> a
+org.apache.commons.logging.SingletonHiveSessionFactoryBuilder$3 -> a.a.a.a.h:
+    org.apache.commons.logging.SingletonHiveSessionFactoryBuilder this$0 -> a
+    void <init>(org.apache.commons.logging.SingletonHiveSessionFactoryBuilder) -> <init>
+    org.hivedb.hibernate.simplified.session.configuration.NodeConfiguration f(org.hivedb.meta.Node) -> a
+    java.lang.Object f(java.lang.Object) -> a
+org.hibernate.cfg.Configuration -> a.b.a.a:
+    void <init>() -> <init>
+    void addClass(java.lang.Class) -> a
+    void setProperty(java.lang.String,java.lang.String) -> a
+org.hibernate.shards.ShardId -> a.b.b.a:
+    void <init>() -> <init>
+org.hibernate.shards.ShardedConfiguration -> a.b.b.b:
+    void <init>(org.hibernate.cfg.Configuration,java.lang.Object,org.hibernate.shards.strategy.ShardStrategyFactory) -> <init>
+    org.hibernate.shards.session.ShardedSessionFactory buildShardedSessionFactory() -> a
+org.hibernate.shards.cfg.ShardConfiguration -> a.b.b.a.a:
+    void <init>() -> <init>
+org.hibernate.shards.session.HiveSessionFactoryBuilder -> a.b.b.b.a:
+org.hibernate.shards.session.ShardedSessionFactory -> a.b.b.b.b:
+    void <init>() -> <init>
+org.hibernate.shards.strategy.ShardStrategy -> a.b.b.c.a:
+org.hibernate.shards.strategy.ShardStrategyFactory -> a.b.b.c.b:
+    void <init>() -> <init>
+org.hibernate.shards.strategy.ShardStrategyImpl -> a.b.b.c.c:
+    org.hivedb.hibernate.HiveShardSelector shardSelector -> a
+    org.hivedb.hibernate.HiveShardResolver shardResolver -> a
+    org.hibernate.shards.strategy.access.ShardAccessStrategy accessStrategy -> a
+    void <init>(org.hivedb.hibernate.HiveShardSelector,org.hivedb.hibernate.HiveShardResolver,org.hibernate.shards.strategy.access.ShardAccessStrategy) -> <init>
+org.hibernate.shards.strategy.access.ShardAccessStrategy -> a.b.b.c.a.a:
+    void <init>() -> <init>
+org.hivedb.Hive -> a.c.a:
+    void <init>() -> <init>
+    java.lang.Object getNodes() -> a
+org.hivedb.configuration.EntityHiveConfig -> a.c.a.a:
+    void <init>() -> <init>
+org.hivedb.hibernate.ConfigurationReader -> a.c.b.a:
+    void <init>(java.util.List) -> <init>
+    org.hivedb.configuration.EntityHiveConfig getHiveConfiguration() -> a
+org.hivedb.hibernate.HiveShardResolver -> a.c.b.b:
+    void <init>(org.hivedb.configuration.EntityHiveConfig,org.hivedb.Hive) -> <init>
+org.hivedb.hibernate.HiveShardSelector -> a.c.b.c:
+    void <init>(org.hivedb.configuration.EntityHiveConfig,org.hivedb.Hive) -> <init>
+org.hivedb.hibernate.simplified.session.configuration.NodeConfiguration -> a.c.b.a.a.a.a:
+    void <init>(org.hivedb.meta.Node,java.util.Properties) -> <init>
+    void <init>() -> <init>
+    org.hivedb.hibernate.simplified.session.configuration.NodeConfiguration getNode() -> a
+    org.hibernate.shards.cfg.ShardConfiguration toShardConfig() -> a
+    org.hivedb.hibernate.simplified.session.configuration.NodeConfiguration configure() -> b
+    java.lang.String getUri() -> a
+org.hivedb.meta.Node -> a.c.c.a:
+    void <init>() -> <init>
+org.hivedb.util.Lists -> a.c.d.a:
+    void <init>() -> <init>
+    java.lang.Object newList(java.util.Collection) -> a
+org.hivedb.util.functional.Atom -> a.c.d.a.a:
+    void <init>() -> <init>
+    org.hibernate.cfg.Configuration getFirstOrThrow(java.util.Collection) -> a
+org.hivedb.util.functional.Transform -> a.c.d.a.b:
+    void <init>() -> <init>
+    java.util.Collection map(org.hivedb.util.functional.Unary,java.util.Collection) -> a
+    java.util.Collection map(org.hivedb.util.functional.Unary,java.lang.Object) -> a
+org.hivedb.util.functional.Unary -> a.c.d.a.c:
+    java.lang.Object f(java.lang.Object) -> a

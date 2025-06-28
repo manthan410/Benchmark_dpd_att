@@ -1,0 +1,17 @@
+SingletonFactory -> a:
+    java.lang.Object singleton -> a
+    void <init>() -> <init>
+    void <init>(java.lang.Object) -> <init>
+    void start() -> a
+    void stop() -> b
+    boolean addClass(java.lang.Class) -> a
+    java.lang.Object getInstance(java.lang.Class) -> a
+    void setInstance(java.lang.Object) -> a
+cucumber.api.java.ObjectFactory -> a.a.a.a:
+    void start() -> a
+    void stop() -> b
+    boolean addClass(java.lang.Class) -> a
+    java.lang.Object getInstance(java.lang.Class) -> a
+main -> b:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> a

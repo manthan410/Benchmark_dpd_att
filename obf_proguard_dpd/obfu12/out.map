@@ -1,0 +1,23 @@
+com.teleca.jamendo.api.Review -> a.a.a.a.a:
+    void <init>() -> <init>
+    void setId(java.lang.Object) -> a
+    void setLang(java.lang.Object) -> b
+    void setName(java.lang.Object) -> c
+    void setRating(java.lang.Object) -> d
+    void setUserImage(java.lang.Object) -> e
+    void setUserName(java.lang.Object) -> f
+    void setText(java.lang.Object) -> g
+com.teleca.jamendo.api.ReviewBuilder -> a.a.a.a.b:
+    void <init>() -> <init>
+    com.teleca.jamendo.api.Review build(org.json.JSONObject) -> a
+module-info -> a:
+org.json.JSONException -> b.a.a:
+    void <init>() -> <init>
+org.json.JSONObject -> b.a.b:
+    void <init>() -> <init>
+    java.lang.Object getInt(java.lang.String) -> a
+    org.json.JSONObject getString(java.lang.String) -> a
+    java.lang.Object replace(java.lang.String,java.lang.String) -> a
+org.xyz.JSONBuilder -> b.b.a:
+    void <init>() -> <init>
+    com.teleca.jamendo.api.Review build(org.json.JSONObject) -> a

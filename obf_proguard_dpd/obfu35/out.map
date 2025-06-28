@@ -1,0 +1,15 @@
+module-info -> a:
+org.xyz.CharacterAbility -> a.a.a:
+    void useAbility() -> a
+org.xyz.GameCharacter -> a.a.b:
+    org.xyz.CharacterAbility ability -> a
+    void <init>() -> <init>
+    void setAbility(org.xyz.CharacterAbility) -> a
+    void performAbility() -> a
+org.xyz.MageAbility -> a.a.c:
+    void <init>() -> <init>
+    void useAbility() -> a
+org.xyz.WarriorAbility -> a.a.d:
+    void <init>() -> <init>
+    void useAbility() -> a
+

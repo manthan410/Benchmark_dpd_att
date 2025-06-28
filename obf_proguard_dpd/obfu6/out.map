@@ -1,0 +1,9 @@
+module-info -> a:
+org.xyz.AlunoEstado -> a.a.a:
+    void <init>() -> <init>
+    java.lang.String getEstado() -> a
+org.xyz.AlunoMemento -> a.a.b:
+    org.xyz.AlunoEstado estado -> a
+    void <init>(org.xyz.AlunoEstado) -> <init>
+    org.xyz.AlunoEstado getEstadoSalvo() -> a
+    java.lang.String toString() -> toString

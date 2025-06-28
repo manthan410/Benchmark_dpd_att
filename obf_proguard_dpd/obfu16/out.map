@@ -1,0 +1,5 @@
+abc.WarriorException -> a.a:
+    void <init>() -> <init>
+abc.Weapon -> a.b:
+    void strike() -> a
+module-info -> a:

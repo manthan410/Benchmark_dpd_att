@@ -1,0 +1,91 @@
+abc.TextViewerDragAdapter -> a.a:
+    java.lang.String DRAG_SELECTION_CATEGORY -> a
+    org.eclipse.jface.text.IPositionUpdater fPositionUpdater -> a
+    org.eclipse.jface.text.Position fSelectionPosition -> a
+    org.eclipse.jface.text.ITextViewer fViewer -> a
+    org.eclipse.ui.texteditor.ITextEditorExtension fEditor -> a
+    boolean fIsEnabled -> a
+    void <init>(org.eclipse.jface.text.ITextViewer) -> <init>
+    void <init>(org.eclipse.jface.text.ITextViewer,org.eclipse.ui.texteditor.ITextEditorExtension) -> <init>
+    void dragFinished(org.eclipse.swt.dnd.DragSourceEvent) -> a
+    void dragSetData(org.eclipse.swt.dnd.DragSourceEvent) -> b
+    void dragStart(org.eclipse.swt.dnd.DragSourceEvent) -> c
+    int getOffsetAtLocation(int,int,boolean) -> a
+    int getDocumentOffset(int) -> a
+    boolean isDocumentEditable() -> a
+    void setEnabled(boolean) -> a
+module-info -> a:
+org.eclipse.jface.text.BadLocationException -> b.a.a.a.a:
+    void <init>() -> <init>
+org.eclipse.jface.text.BadPositionCategoryException -> b.a.a.a.b:
+    void <init>() -> <init>
+org.eclipse.jface.text.DefaultPositionUpdater -> b.a.a.a.c:
+    void <init>(java.lang.String) -> <init>
+org.eclipse.jface.text.DummyRewrite -> b.a.a.a.d:
+    void <init>() -> <init>
+    void beginCompoundChange() -> a
+    void endCompoundChange() -> b
+org.eclipse.jface.text.IDocument -> b.a.a.a.e:
+    void removePositionCategory(java.lang.String) -> a
+    void removePositionUpdater(org.eclipse.jface.text.IPositionUpdater) -> a
+    void addPositionCategory(java.lang.String) -> b
+    void addPositionUpdater(org.eclipse.jface.text.IPositionUpdater) -> b
+    void addPosition(java.lang.String,org.eclipse.jface.text.Position) -> a
+    void replace(java.lang.Object,java.lang.Object,java.lang.Object) -> a
+    java.lang.Object get(java.lang.Object,java.lang.Object) -> a
+org.eclipse.jface.text.IPositionUpdater -> b.a.a.a.f:
+org.eclipse.jface.text.IRegion -> b.a.a.a.g:
+    int getOffset() -> a
+    int getLength() -> b
+org.eclipse.jface.text.ITextViewer -> b.a.a.a.h:
+    org.eclipse.swt.graphics.Point getSelectedRange() -> a
+    org.eclipse.jface.text.IDocument getDocument() -> a
+    org.eclipse.jface.text.IRegion getVisibleRegion() -> a
+    boolean isEditable() -> a
+    org.eclipse.swt.custom.StyledText getTextWidget() -> a
+org.eclipse.jface.text.ITextViewerExtension -> b.a.a.a.i:
+    org.eclipse.jface.text.DummyRewrite getRewriteTarget() -> a
+org.eclipse.jface.text.ITextViewerExtension5 -> b.a.a.a.j:
+    int widgetOffset2ModelOffset(int) -> a
+org.eclipse.jface.text.Position -> b.a.a.a.k:
+    java.lang.Object offset -> a
+    java.lang.Object length -> b
+    void <init>(int,int) -> <init>
+org.eclipse.swt.custom.StyledText -> b.a.b.a.a:
+    void <init>() -> <init>
+    int getOffsetAtLocation(org.eclipse.swt.graphics.Point) -> a
+    org.eclipse.swt.graphics.Point getLocationAtOffset(int) -> a
+    int getTopPixel() -> a
+    int getLineHeight() -> b
+    org.eclipse.swt.graphics.Point toControl(int,int) -> a
+    org.eclipse.swt.custom.StyledTextContent getContent() -> a
+org.eclipse.swt.custom.StyledTextContent -> b.a.b.a.b:
+    void <init>() -> <init>
+    java.lang.String getLine(int) -> a
+    int getOffsetAtLine(int) -> a
+    int getLineCount() -> a
+    int getCharCount() -> b
+org.eclipse.swt.dnd.DND -> b.a.b.b.a:
+    int DROP_MOVE -> a
+    int DROP_NONE -> b
+    int DROP_COPY -> c
+    void <init>() -> <init>
+org.eclipse.swt.dnd.DragSourceAdapter -> b.a.b.b.b:
+    void <init>() -> <init>
+    void dragFinished(org.eclipse.swt.dnd.DragSourceEvent) -> a
+    void dragSetData(org.eclipse.swt.dnd.DragSourceEvent) -> b
+    void dragStart(org.eclipse.swt.dnd.DragSourceEvent) -> c
+org.eclipse.swt.dnd.DragSourceEvent -> b.a.b.b.c:
+    int x -> a
+    int y -> b
+    java.lang.Object data -> a
+    boolean doit -> a
+    int detail -> c
+    void <init>() -> <init>
+org.eclipse.swt.graphics.Point -> b.a.b.c.a:
+    int x -> a
+    int y -> b
+    void <init>(int,int) -> <init>
+org.eclipse.ui.texteditor.ITextEditorExtension -> b.a.c.a.a:
+    void <init>() -> <init>
+    boolean isEditorInputReadOnly() -> a

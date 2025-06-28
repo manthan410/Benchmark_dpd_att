@@ -1,0 +1,44 @@
+com.paypal.sdk.AbstractProxy -> a.a.a.a:
+    java.lang.Object profile -> a
+    java.lang.String version -> a
+    void <init>(com.paypal.sdk.profiles.APIProfile) -> <init>
+    void <init>(java.lang.String,java.lang.String,java.lang.String) -> <init>
+    java.lang.String call(java.lang.String) -> a
+    com.paypal.soap.api.AbstractResponseType call(java.lang.String,com.paypal.soap.api.AbstractRequestType) -> a
+com.paypal.sdk.PaypalNVPProxy -> a.a.a.b:
+    com.paypal.sdk.services.NVPCallerServices caller -> a
+    com.paypal.sdk.core.nvp.NVPEncoder encoder -> a
+    com.paypal.sdk.core.nvp.NVPDecoder decoder -> a
+    void <init>(com.paypal.sdk.profiles.APIProfile) -> <init>
+    void <init>(java.lang.String,java.lang.String) -> <init>
+    void <init>(java.lang.String,java.lang.String,java.lang.String) -> <init>
+    java.lang.String call(java.lang.String) -> a
+    com.paypal.soap.api.AbstractResponseType call(java.lang.String,com.paypal.soap.api.AbstractRequestType) -> a
+    void setEncoder(com.paypal.sdk.core.nvp.NVPEncoder) -> a
+    com.paypal.sdk.core.nvp.NVPDecoder getDecoder() -> a
+    boolean isSuccess() -> a
+    com.paypal.sdk.PaypalNVPProxy createPaypalNVPProxy(com.paypal.sdk.profiles.APIProfile) -> a
+    com.paypal.sdk.PaypalNVPProxy createPaypalNVPProxy(java.lang.String,java.lang.String) -> a
+    com.paypal.sdk.PaypalNVPProxy createPaypalNVPProxy(java.lang.String,java.lang.String,java.lang.String) -> a
+com.paypal.sdk.core.nvp.NVPDecoder -> a.a.a.a.a.a:
+    void <init>() -> <init>
+    void decode(java.lang.String) -> a
+    java.lang.String get(java.lang.String) -> a
+com.paypal.sdk.core.nvp.NVPEncoder -> a.a.a.a.a.b:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> a
+    void add(java.lang.String,java.lang.String) -> a
+    java.lang.String encode() -> a
+com.paypal.sdk.exceptions.PayPalException -> a.a.a.b.a:
+    void <init>() -> <init>
+com.paypal.sdk.profiles.APIProfile -> a.a.a.c.a:
+    void <init>() -> <init>
+com.paypal.sdk.services.NVPCallerServices -> a.a.a.d.a:
+    void <init>() -> <init>
+    java.lang.String call(java.lang.String) -> a
+    void setAPIProfile(java.lang.Object) -> a
+com.paypal.soap.api.AbstractRequestType -> a.a.b.a.a:
+    void <init>() -> <init>
+com.paypal.soap.api.AbstractResponseType -> a.a.b.a.b:
+    void <init>() -> <init>
+module-info -> a:
